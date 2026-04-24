@@ -1,6 +1,5 @@
-# NLP Document Q&A System — Academic Mini-Project
+# NLP-Based File Analyzer and Query System
 
-**Subject:** Natural Language Processing (NLIP)
 **Pipeline:** MCP Document Loader → NLP Engine → Groq LLM
 
 ---
