@@ -1,0 +1,25 @@
+# ═══════════════════════════════════════════════
+#  requirements.txt — NLP Document Q&A System
+# ═══════════════════════════════════════════════
+
+# ── Core pipeline ────────────────────────────
+groq                        # Groq API client (LLM)
+
+# ── MCP file parsing ─────────────────────────
+PyPDF2                      # PDF extraction
+python-docx                 # DOCX extraction
+openpyxl                    # XLSX extraction
+python-pptx                 # PPTX extraction
+PyYAML                      # YAML config files
+
+# ── NLP upgrades (NEW) ───────────────────────
+sentence-transformers       # Dense embeddings (all-MiniLM-L6-v2)
+faiss-cpu                   # Vector similarity search
+spacy                       # NER (run: python -m spacy download en_core_web_sm)
+
+# ── UI (NEW) ─────────────────────────────────
+streamlit                   # Web interface
+
+# ── Standard library (no install needed) ─────
+# asyncio, json, math, re, os, base64, logging,
+# pathlib, collections, typing, time, tempfile
